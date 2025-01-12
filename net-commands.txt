@@ -1,0 +1,15 @@
+            Dirección Publica-nslookup myip.opendns.com resolver1.opendns.com
+-/etc/ssh/sshd_config
+-C:\ProgramData\SSH\sshd_config
+-C:\ProgramData\ssh\logs
+-ssh-rsa 2048 SHA256:J/i2A4Q7PGRhZAv8BQQygLkbuCva/DQlj9zUBzqwUFM
+-rsa-key-20250110
+-netstat
+-netstat -r
+-arp -a
+-nslookup
+-tracert 192.168.1.1
+-nmap -sP 192.168.1.0/24
+-linux /boot/vmlinuz-xxx root=UUID=xxx ro single
+-linux /boot/vmlinuz-xxx root=UUID=xxx ro 1
+

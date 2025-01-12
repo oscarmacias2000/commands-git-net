@@ -1,0 +1,28 @@
+               [git/GitHub]
+-git init 
+-git config global --user.email "email@"
+-git config global --user.username "username"
+-git status
+-git log (historial de commits)
+-git Branch (ramas locales)
+-git branch -r(ramas remotas)
+-git remote -v(ver la configuración remota (URLrepository))
+-git branch <nombre_de_la_rama>(crear nueva rama)
+-git checkout <nombre_de_la_rama>(cambiar a otra rama)
+-git checkout -b <nombre_de_la_rama>(crear y cambiar a otra rama)
+-git branch -d <nombre_de_la_rama>(eliminar una rama local)
+-git merge <nombre_de_la_rama>(fusionar una rama con la actual)
+-git branch -a(ver las ramas y su relacion con las remotas)
+[commits/confirmaciones de cambios]
+-git add . (todos los cambios incluyendos nuevos archivos)
+-git add <archivo> (agregar especificos)
+-git commit -m
+-git commit --amend (hacer y omitir la confirmacion si no hay cambios)
+[sincronizar/repository remoto]
+-git remote -v
+-git fetch origin (traer cambios a la rama remota)
+-git pull origin <nombre-rama>(Traer cambios de la rama remota y hacer merge automaticamente)
+-git push origin <nombre-rama>(subir cambias a la rama remota)
+-git push -u origin <nombre-rama>(subir una nueva rama al repositorio remoto)
+[Comandos para Rebase/Resolución de Conflictos]
+
