@@ -24,5 +24,7 @@
 -git pull origin <nombre-rama>(Traer cambios de la rama remota y hacer merge automaticamente)
 -git push origin <nombre-rama>(subir cambias a la rama remota)
 -git push -u origin <nombre-rama>(subir una nueva rama al repositorio remoto)
+-git clone <URL remote repository>
 [Comandos para Rebase/Resolución de Conflictos]
+
 
