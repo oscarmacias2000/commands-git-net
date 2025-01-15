@@ -12,4 +12,8 @@
 -nmap -sP 192.168.1.0/24
 -linux /boot/vmlinuz-xxx root=UUID=xxx ro single
 -linux /boot/vmlinuz-xxx root=UUID=xxx ro 1
+-find / -type f
+-find / -type f | grep "nombre_de_archivo"
+-find ~ -type f (Directorio Personal)
+-find / -type f -nouser (Archivos Buerfanos o sin Dueño)
 
