@@ -16,4 +16,28 @@
 -find / -type f | grep "nombre_de_archivo"
 -find ~ -type f (Directorio Personal)
 -find / -type f -nouser (Archivos Buerfanos o sin Dueño)
-
+-net(packettracer)
+-Equipo Switch
+(Entrar en modo EXEC privilegiado)
+-enable
+(Examinar la configuración actual del switch)
+-show running
+(Asignar un nombre al switch)
+-hostname ""
+(Proporcionar acceso seguro a la consola)
+-line console 0
+-password ""
+-login
+(Proporcionar acceso seguro al modo privilegiado)
+-enable password ""
+(Configurar una contraseña cifrada para proporcionar acceso seguro al modo privilegiado)
+-enable secret  itsasecret""
+(Cifrar las contraseña de consola y enable)
+-service password-encryption
+(Configurar mensaje del día MOTD)
+-banner motd  $gato""
+(Guardar los cambios de la configuración en la NVRAM)
+-copy running-configuration starup-configuration
+(eshabilitar la busqueda de nombres de dominio)
+-DNS
+-no ip domain-lookup
